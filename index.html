@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Baumans&family=Dancing+Script:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oregano:ital@0;1&family=Redressed&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Sue+Ellen+Francisco&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <!-- navbar -->
+      <nav>
+        <img src="./logo.png" alt width="130px" />
+        <div>
+          <a class="link" href="#parent-home">Home</a>
+          <a class="link" href="#about">About</a>
+          <a class="link" href="#skill">Skills</a>
+          <a class="link" href="#contact">Contact</a>
+        </div>
+      </nav>
+      <!-- home section -->
+      <div id="parent-home">
+        <div class="home">
+          <div class="home-text">
+            <h1>Hii, I'm Anagha <span id="lname">L M</span></h1>
+            <p>Welcome to my Portfolio Website...</p>
+            <a href="document.pdf" download>Download CV</a>
+          </div>
+        </div>
+        <div class="home" id="images">
+          <img
+            class="home-image"
+            id="oval"
+            src="./yell.png"
+            alt=""
+            width="450px"
+          />
+          <img
+            class="home-image"
+            id="girl"
+            src="./iad.png"
+            alt=""
+            width="400px"
+          />
+        </div>
+      </div>
+
+      <!--about-section -->
+
+      <div id="about">
+        <div class="section-head">
+          <h1 class="main-head">About</h1>
+          <h3 class="sub-head">Introduction</h3>
+        </div>
+
+        <div class="about-content">
+          <div class="about-img">
+            <img src="./iad.png" alt="" />
+          </div>
+          <div class="about-text">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea aut,
+              alias tenetur quae maiores quos ad repellendus nostrum! Officia
+              ratione placeat perspiciatis laudantium, cupiditate cum voluptates
+              tenetur doloribus ab inventore. Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Dignissimos sint dicta ullam. Culpa
+              accusantium minus reprehenderit. Incidunt in error, nisi, culpa
+              dolore fuga placeat, eaque ab reprehenderit modi autem. Maiores.
+            </p>
+
+            <div class="info">
+              <i class="fa-solid fa-user" style="color: #f02a02"></i>
+              <span>Anagha L M</span>
+            </div>
+
+            <div class="info">
+              <i class="fa-solid fa-phone" style="color: #f02a02"></i>
+              <span>+91 9037860140</span>
+            </div>
+
+            <div class="info">
+              <i class="fa-solid fa-envelope" style="color:#f02a02"></i>
+              <span>anaghalm4@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- skills section -->
+      <div id="skill">
+        <div class="section-head">
+          <h1 class="main-head">Skill</h1>
+          <h3 class="sub-head" id="skill-head">My skills</h3>
+        </div>
+
+        <div class="skill-content">
+          <div class="progress-bar">
+            <!-- bar -->
+            <div class="bar">
+              <h4 class="skill-head">HTML</h4>
+              <span class="skill-percent">90%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar" id="html-bar"></div>
+            </div>
+
+            <div class="bar">
+              <h4 class="skill-head">CSS</h4>
+              <span class="skill-percent">90%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar" id="css-bar"></div>
+            </div>
+
+            <div class="bar">
+              <h4 class="skill-head">PYTHON</h4>
+              <span class="skill-percent">95%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar" id="python-bar"></div>
+            </div>
+
+            <div class="bar">
+              <h4 class="skill-head">JAVA</h4>
+              <span class="skill-percent">80%</span>
+              <div class="base-bar"></div>
+              <div class="base-bar" id="java-bar"></div>
+            </div>
+          </div>
+
+          <div class="skill-img">
+            <img src="./yell.png" alt="" width="400px" />
+          </div>
+        </div>
+      </div>
+
+      <!-- contact section -->
+      <div id="contact">
+        <div class="section-head">
+          <h1 class="main-head">Contact</h1>
+          <h3 class="sub-head" id="contact-head">My Contact</h3>
+        </div>
+
+        <div class="icon-collection">
+          <div class="icon">
+            <a href="" class="social"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="" class="social"><i class="fa-brands fa-github"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="" class="social"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="" class="social"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+
+          <div class="icon">
+            <a href="" class="social"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <h4>
+          &copy;My Personal Website, &reg;All rights reserved, &reg;Anagha L M
+        
+        </h4>
+        <div class="icon" id="footer-icon">
+          <a href="#container" class="social"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

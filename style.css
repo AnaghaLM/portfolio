@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Mulish;
+}
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
+/* pseudo classes */
+.link:hover{
+    color: rgb(190, 53, 3);
+    text-decoration: underline;
+}
+#parent-home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 70px 0px;
+    margin-top: 40px;
+}
+
+.home{
+    width: 50%;
+    height: 460px;
+    /* border: 2px solid black; */
+}
+.home-text{
+    margin: 130px 130px;
+}
+.home-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Dancing Script;
+    margin-bottom: 30px;
+}
+#lname{
+    font-weight: bold;
+    font-family: Dancing Script;
+    color: #f0021a;
+}
+.home-text p{
+    margin-bottom: 50px;
+}
+.home-text a{
+    background-color: black;
+    border: 8px solid black;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+#images{
+    padding-top: 10px;
+    /* padding-right: 90px; */
+    /* text-align: center; */
+    /* padding-left: 60px; */
+    position: relative;
+}
+
+.home-image{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 2s;
+}
+#images:hover #oval{
+    bottom: 20px;
+}
+#images:hover #girl{
+    left: -20px;
+}
+
+/* About section */
+
+
+#about{
+    margin: 40px;
+}
+.section-head{
+    text-align: center;
+}
+.main-head{
+    font-family: Dancing Script;
+    font-size: 50px;
+    font-weight: bold;
+}
+.sub-head{
+    font-family: Dancing Script;
+    font-size: 37px;
+    color:#f00212 ;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.about-text{
+    text-align: justify;
+    padding-left: 100px;
+    font-size: large;
+}
+
+.about-text p{
+    margin-bottom: 40px;
+    
+}
+
+.info{
+    margin-top: 10px;
+    font-size: medium;
+}
+.info span{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.skill-content{
+    padding: 40px;
+    /* to display in row */
+    display: grid;
+    /* to display two colums with equal width */
+    grid-template-columns: repeat(2, 1fr);
+    /* to make a gap between coloums */
+    gap: 4rem;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 90px;
+    padding: 18px 0px;
+    position: relative;
+}
+.skill-img{
+    padding-left: 150px;
+}
+.base-bar{
+    width: 100%;
+    background-color: black;
+    height: .5rem;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: 0;
+}
+#css-bar, #html-bar{
+    width: 90%;
+    background-color: #f00212;
+}
+#python-bar{
+    width: 95%;
+    background-color: #f00235;
+}
+#java-bar{
+    width: 80%;
+    background-color: #f0021e;
+}
+
+/* contact section */
+
+#contact{
+    padding: 40px;
+}
+.icon-collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.icon{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0021a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    color: black;
+}
+.social:hover{
+    color: white;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, white, #f0022a);
+    animation: rotate 2s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    25%{
+        transform: rotate(-30deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    80%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+
+}
+#footer{
+    padding-left: 290px;
+    margin: 20px 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* #footer-icon{
+    float: right;
+} */
+
+
